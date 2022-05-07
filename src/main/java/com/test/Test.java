@@ -8,5 +8,6 @@ public class Test {
         MyApplicationContext context = new MyApplicationContext(AppConfig.class);
         UserService userService =(UserService) context.getBean("userService");
         userService.add();
+        userService.test();
     }
 }
